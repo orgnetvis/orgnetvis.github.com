@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "className": "Company",
+        "id": "#17:572198",
+        "inn": "7726671234",
+        "shortName": "ООО \"РВК-ВОРОНЕЖ\"",
+        "label": "ООО \"РВК-ВОРОНЕЖ\""
+      },
+      "root": false,
+      "selected": false
+    },
+    {
+      "data": {
+        "className": "Company",
+        "id": "#18:775372",
+        "inn": "9705055855",
+        "shortName": "АКРА (АО)",
+        "label": "АКРА (АО)"
+      },
+      "root": false,
+      "selected": false
+    },
+    {
+      "data": {
+        "className": "Company",
+        "id": "#17:88933",
+        "inn": "5260189318",
+        "shortName": "ЗАО КБ \"ПРИВОЛЖСКОЕ ОВК\"",
+        "label": "ЗАО КБ \"ПРИВОЛЖСКОЕ ОВК\""
+      },
+      "root": false,
+      "selected": false
+    },
+    {
+      "data": {
+        "className": "Company",
+        "id": "#17:283222",
+        "inn": "7706019126",
+        "shortName": "НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ НЕГОСУДАРСТВЕННЫЙ ПЕНСИОННЫЙ ФОНД \"ИНТЕРРОС-ДОСТОИНСТВО\"",
+        "label": "НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ НЕГОСУДАРСТВЕННЫЙ ПЕНСИОННЫЙ ФОНД \"ИНТЕРРОС-ДОСТОИНСТВО\""
+      },
+      "root": false,
+      "selected": false
+    },
+    {
+      "data": {
+        "className": "Company",
+        "id": "#18:88991",
+        "inn": "7730060164",
+        "shortName": "АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ БАНК \"РОСБАНК\" (ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)",
+        "label": "АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ БАНК \"РОСБАНК\" (ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)"
+      },
+      "root": true,
+      "selected": true
+    },
+    {
+      "data": {
+        "className": "Company",
+        "id": "#18:264887",
+        "inn": "7743738048",
+        "shortName": "ООО \"РБ СЕРВИС\"",
+        "label": "ООО \"РБ СЕРВИС\""
+      },
+      "root": false,
+      "selected": false
+    },
+    {
+      "data": {
+        "className": "Company",
+        "id": "#17:713453",
+        "inn": "7709202955",
+        "shortName": "ООО \"РБ ЛИЗИНГ\"",
+        "label": "ООО \"РБ ЛИЗИНГ\""
+      },
+      "root": false,
+      "selected": false
+    },
+    {
+      "data": {
+        "className": "Company",
+        "id": "#17:208793",
+        "inn": "7701208994",
+        "shortName": "ООО \"АРТ  ХАЙЗЕР\"",
+        "label": "ООО \"АРТ  ХАЙЗЕР\""
+      },
+      "root": false,
+      "selected": false
+    },
+    {
+      "data": {
+        "className": "Address",
+        "id": "#15:3100",
+        "regionCode": "77",
+        "codeKLADR": "770000000000676",
+        "city": "ГОРОД МОСКВА",
+        "street": "УЛИЦА МАШИ ПОРЫВАЕВОЙ",
+        "label": "ГОРОД МОСКВА УЛИЦА МАШИ ПОРЫВАЕВОЙ (770000000000676)"
+      },
+      "root": false,
+      "selected": false
+    },
+    {
+      "data": {
+        "className": "FL",
+        "id": "#19:264277",
+        "inn": "773314185016",
+        "shortName": "Олюнин Д. Ю.",
+        "label": "Олюнин Д. Ю."
+      },
+      "root": false,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "className": "FounderEdge",
+        "id": "#25:654553",
+        "source": "#17:713453",
+        "target": "#18:88991",
+        "relationData": 705020000
+      }
+    },
+    {
+      "data": {
+        "className": "FounderEdge",
+        "id": "#25:150928",
+        "source": "#17:208793",
+        "target": "#18:88991",
+        "relationData": 78651769.0000
+      }
+    },
+    {
+      "data": {
+        "className": "FounderEdge",
+        "id": "#25:741143",
+        "source": "#17:283222",
+        "target": "#18:88991",
+        "relationData": null
+      }
+    },
+    {
+      "data": {
+        "className": "LocationEdge",
+        "id": "#28:333365",
+        "source": "#18:88991",
+        "target": "#15:3100"
+      }
+    },
+    {
+      "data": {
+        "className": "FounderEdge",
+        "id": "#26:734238",
+        "source": "#18:775372",
+        "target": "#18:88991",
+        "relationData": 111112000
+      }
+    },
+    {
+      "data": {
+        "className": "ChiefEdge",
+        "id": "#23:147348",
+        "source": "#18:88991",
+        "target": "#19:264277"
+      }
+    },
+    {
+      "data": {
+        "className": "FounderEdge",
+        "id": "#25:584225",
+        "source": "#17:572198",
+        "target": "#18:88991",
+        "relationData": 10000
+      }
+    },
+    {
+      "data": {
+        "className": "FounderEdge",
+        "id": "#25:188324",
+        "source": "#18:264887",
+        "target": "#18:88991",
+        "relationData": 100000.0000
+      }
+    },
+    {
+      "data": {
+        "className": "FounderEdge",
+        "id": "#26:65814",
+        "source": "#17:88933",
+        "target": "#18:88991",
+        "relationData": 123805000.0000
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{  
+   "nodes":[  
+      {  
+         "data":{  
+            "className":"Company",
+            "id":"#17:311154",
+            "inn":"7718721280",
+            "shortName":"ООО \"ПРЕМИУМ СПИРИТС\"",
+            "label":"ООО \"ПРЕМИУМ СПИРИТС\""
+         },
+         "root":false,
+         "selected":false
+      },
+      {  
+         "data":{  
+            "className":"Company",
+            "id":"#17:482603",
+            "inn":"7736625205",
+            "shortName":"ООО \"СЭД\"",
+            "label":"ООО \"СЭД\""
+         },
+         "root":false,
+         "selected":false
+      },
+      {  
+         "data":{  
+            "className":"Company",
+            "id":"#17:588089",
+            "inn":"7805485840",
+            "shortName":"ООО \"КОНТРОЛ ЛИЗИНГ\"",
+            "label":"ООО \"КОНТРОЛ ЛИЗИНГ\""
+         },
+         "root":false,
+         "selected":false
+      },
+      {  
+         "data":{  
+            "className":"Company",
+            "id":"#18:592600",
+            "inn":"7706751788",
+            "shortName":"ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СВК ХОЛДИНГ\"",
+            "label":"ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СВК ХОЛДИНГ\""
+         },
+         "root":false,
+         "selected":false
+      },
+      {  
+         "data":{  
+            "className":"Company",
+            "id":"#17:84499",
+            "inn":"7736611805",
+            "shortName":"ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СБК МЕТАЛЛ\"",
+            "label":"ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СБК МЕТАЛЛ\""
+         },
+         "root":false,
+         "selected":false
+      },
+      {  
+         "data":{  
+            "className":"Company",
+            "id":"#17:717510",
+            "inn":"7736611795",
+            "shortName":"ООО \"СБК\"",
+            "label":"ООО \"СБК\""
+         },
+         "root":false,
+         "selected":false
+      },
+      {  
+         "data":{  
+            "className":"Company",
+            "id":"#18:311088",
+            "inn":"7736581290",
+            "shortName":"ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СБЕРБАНК КАПИТАЛ\"",
+            "label":"ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СБЕРБАНК КАПИТАЛ\""
+         },
+         "root":true,
+         "selected":true
+      }
+   ],
+   "edges":[  
+      {  
+         "data":{  
+            "className":"FounderEdge",
+            "id":"#25:221975",
+            "source":"#17:311154",
+            "target":"#18:311088",
+            "relationData":79984000.0000
+         }
+      },
+      {  
+         "data":{  
+            "className":"FounderEdge",
+            "id":"#25:360513",
+            "source":"#17:482603",
+            "target":"#18:311088",
+            "relationData":12995000
+         }
+      },
+      {  
+         "data":{  
+            "className":"FounderEdge",
+            "id":"#26:497542",
+            "source":"#17:588089",
+            "target":"#18:311088",
+            "relationData":38316000
+         }
+      },
+      {  
+         "data":{  
+            "className":"FounderEdge",
+            "id":"#25:592385",
+            "source":"#18:592600",
+            "target":"#18:311088",
+            "relationData":32584316037
+         }
+      },
+      {  
+         "data":{  
+            "className":"FounderEdge",
+            "id":"#25:646806",
+            "source":"#17:84499",
+            "target":"#18:311088",
+            "relationData":15909984.09
+         }
+      },
+      {  
+         "data":{  
+            "className":"FounderEdge",
+            "id":"#25:659531",
+            "source":"#17:717510",
+            "target":"#18:311088",
+            "relationData":86051394
+         }
+      }
+   ]
+}
